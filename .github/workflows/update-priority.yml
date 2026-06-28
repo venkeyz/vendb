@@ -42,7 +42,7 @@ jobs:
       # Pull origin in case a commit has been done while updating
     - name: Pull origin
       run: |
-        git config --global --add safe.directory /__w/db/db
+        git config --global --add safe.directory /__w/vendb/vemdb
         git pull origin master --ff-only
 
     - name: Push changes
