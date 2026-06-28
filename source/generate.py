@@ -639,7 +639,7 @@ def handle_screenshots(app_title: str, docs_dir: pathlib.Path):
 
 
 def create_error_report(e, app_name, webhook: discord.SyncWebhook):
-	embed = discord.Embed(title="Universal-DB Exception Occurred")
+	embed = discord.Embed(title=" Exception Occurred")
 	embed.description = f"```py\n{e}```"
 	if app_name:
 		embed.add_field(name="App Name", value=app_name)
@@ -971,13 +971,13 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 	github = GitHubAPI(token=ghToken)
 
 	unistore = UniStore(
-		"Universal-DB",
-		"Universal-Team",
-		"Universal-DB - An online database of 3DS and DS homebrew",
-		"https://db.universal-team.net/unistore/universal-db.unistore",
-		[f"https://db.universal-team.net/unistore/universal-db-{x}.t3x" for x in range(len(source) // ICONS_PER_SHEET + 1)],
-		"https://db.universal-team.net/unistore/universal-db.tdx",
-		"https://db.universal-team.net/unistore/universal-db-info.json",
+		"VenDB - fork of Universal-DB",
+		"venkeyz",
+		"VenDB - An unrestricted online database of 3DS and DS homebrew",
+		"https://github.com/venkeyz/vendb/docs/unistore/universal-db.unistore",
+		[f"https://github.com/venkeyz/vendb/docs/unistore/universal-db-{x}.t3x" for x in range(len(source) // ICONS_PER_SHEET + 1)],
+		"https://github.com/venkeyz/vendb/docs/unistore/universal-db.tdx",
+		"https://github.com/venkeyz/vendb/docs/unistore/universal-db-info.json",
 		bool(BG_IMAGE)
 	)
 
