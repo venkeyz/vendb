@@ -18,7 +18,6 @@ downloads:
 gitlab: gitbrew/GitHub3DS
 icon: https://raw.githubusercontent.com/Thorsten-sys/anothercoolpresentation/main/icon.png
 image: https://raw.githubusercontent.com/Thorsten-sys/anothercoolpresentation/main/banner.png
-image_length: 6634
 layout: app
 license: gpl-3.0+
 license_name: GNU General Public License v3.0 or later
