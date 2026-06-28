@@ -1,7 +1,7 @@
 # VenDB
 
 QR Code (scan in universal updater)
-<img width="300" height="300" alt="extended" src="https://github.com/user-attachments/assets/74027ad3-f139-45ce-ac9a-0047c21febed" />
+i'll add a qr code soon
 
 
 
