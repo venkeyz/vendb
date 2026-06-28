@@ -971,7 +971,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 	github = GitHubAPI(token=ghToken)
 
 	unistore = UniStore(
-		"VenDB - fork of Universal-DB",
+		"VenDB",
 		"venkeyz",
 		"VenDB - An unrestricted online database of 3DS and DS homebrew",
 		"https://github.com/venkeyz/vendb/docs/unistore/universal-db.unistore",
