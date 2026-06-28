@@ -1,0 +1,26 @@
+{
+  "title": "HShop",
+  "author": "3hs",
+
+  "systems": [
+    "3DS"
+  ],
+
+  "categories": [
+    "utility"
+  ],
+
+  "unique_ids": [
+    100001
+  ],
+
+  "description": "The better way to install hShop content on a 3DS.",
+
+  "version": "1.5.11",
+
+  "downloads": {
+    "HShop.cia": {
+      "url": "https://download2.erista.me/3hs/3hs.cia"
+    }
+  }
+}
