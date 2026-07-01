@@ -973,11 +973,11 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 	unistore = UniStore(
 		"VenDB",
 		"venkeyz",
-		"VenDB - An unrestricted online database of 3DS and DS homebrew",
-		"https://github.com/venkeyz/vendb/docs/unistore/universal-db.unistore",
-		[f"https://github.com/venkeyz/vendb/docs/unistore/universal-db-{x}.t3x" for x in range(len(source) // ICONS_PER_SHEET + 1)],
-		"https://github.com/venkeyz/vendb/docs/unistore/universal-db.tdx",
-		"https://github.com/venkeyz/vendb/docs/unistore/universal-db-info.json",
+		"VenDB",
+		"https://github.com/venkeyz/vendb/docs/unistore/vendb.unistore",
+		[f"https://github.com/venkeyz/vendb/docs/unistore/vendb-{x}.t3x" for x in range(len(source) // ICONS_PER_SHEET + 1)],
+		"https://github.com/venkeyz/vendb/docs/unistore/vendb.tdx",
+		"https://github.com/venkeyz/vendb/docs/unistore/vendb-info.json",
 		bool(BG_IMAGE)
 	)
 
